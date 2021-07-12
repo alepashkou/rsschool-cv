@@ -1,4 +1,4 @@
-# Alexander Pashkou
+ï»¿# Alexander Pashkou
 ### Contact:
 - Email: ale.pashkou@gmail.com
 - Mobile: +375-29-386-56-27
@@ -49,7 +49,7 @@ else{
 ### Education:
 -  Gomel State Technical University named after Pavel Sukhoi 2017-2019 (Software engineer)
 -  Belarusian Trade-Economic University of Consumer cooperative 2015-2019 (Economist)
--  RS-School JS/FE Pre-school 05.07.2021 – present
+-  RS-School JS/FE Pre-school 05.07.2021 - present
 
 ### English level:
 A2 (Pre-Intermediate)
