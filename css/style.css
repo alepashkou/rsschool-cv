@@ -1,0 +1,92 @@
+body {
+     background: #FFF;
+     color: #000;
+     font-family: Arial, sans-serif;
+     font-size: 14px;
+    width: 1400px;
+    margin: 0 auto;
+}
+
+#main {
+     margin: auto auto;
+     width: 80%;
+     height: 400px;
+	     margin:0 auto;
+}
+ 
+ 
+#left {
+     background: #f3f3f3;
+     float: left;
+     width: 70%;
+     height: 800px;
+}
+
+#right {
+     background: #2378b7;
+     float: right;
+     width: 30%;
+     height: 800px;
+}
+
+.name{
+	font-family: "MinionPro-Regular"; 
+	font-size: 55px;
+	margin-left: 120px;
+}
+.exp{
+	margin-left: 15px;
+	font-family: "MinionPro-Regular"; 
+	
+}
+
+#right_foother {
+     background: #2378b7;
+     float: right;
+     width: 30%;
+     height: 70px;
+}
+#left_foother {
+     background: #f3f3f3;
+     float: left;
+     width: 70%;
+	 height: 70px;
+}
+
+li{
+	line-height: 1.8;
+}
+.about{
+	color:white;
+	font-family: "MinionPro-Regular"; 
+	text-align:center;
+}
+
+.text_about{
+ color: white;
+ font-size: 14px;
+ margin-left: 5px;
+ margin-right: 5px;
+ text-align: center;
+}
+.text_contact{
+color: white;
+ font-size: 14px;
+ margin-left: 5px;
+ margin-right: 5px;
+}
+.year{
+	font-size:15px;
+	text-align:center;
+	margin-top: 40px;
+}
+.rs{
+  display: block;
+  margin: 0 auto;
+}
+@font-face {
+font-family: "MinionPro-Regular"; 
+src: url("../fonts/MinionPro-Regular.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
+} 
