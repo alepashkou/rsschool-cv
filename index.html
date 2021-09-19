@@ -5,85 +5,175 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>CV Alexander Pashkou</title>
-<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/github.min.css">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
 </head>
 
 <body>
+<main class="main">
+	<div class="burger-menu">
+		<a href="" class="burger-menu_button">
+		  <span class="burger-menu_lines"></span>
+		</a>
+		<nav class="burger-menu_nav">
+		  <a href="#experience" class="burger-menu_link">Experience</a>
+		  <a href="#education" class="burger-menu_link">Education</a>
+		  <a href="#skills" class="burger-menu_link">Skills</a>
+		  <a href="#projects" class="burger-menu_link">Projects</a>
+		</nav>
+		<div class="burger-menu_overlay"></div>
+	  </div>	 		 
+<section class="left">
+	<img src="img/main.jpg" alt="author photo" width="336" class="main_photo">
+	<h2 class="about"> About me </h2>
+		<p class="text_about">I consider one of my strong qualities to be, communication, punctuality and organizational skills. 
+		I came to this project to gain experience.
+		I hope this courses will help me to obtain useful knowledge.<br></p>
 
-<main id="main">
-		 		 
-	<div id="right">
-	
-<img src="img/main.jpg" alt="author photo" width="336">
-<article>
-<h2 class="about"> About me </h2>
-	<p class="text_about">I consider one of my strong qualities to be , communication, punctuality and organizational skills. 
-I came to this project to gain experience.
-I hope this courses will help me to obtain useful knowledge.<br></p>
-</article>
-<p class="text_about">English: A2 (Pre-Intermediate). I continue to improve my English skills.</p>
+	<p class="text_about">English: A2 (Pre-Intermediate). I continue to improve my English skills.</p>
 	<h2 class="about"> Contact </h2>
-	<ul class="text_contact"><li> Email: ale.pashkou@gmail.com</li>
-	<li> Mobile: +375-29-386-56-27</li>
-	<li> Discord: Alexander Pashkou (@alepashkou)</li>
-	<li> Github:<a href="https://github.com/alepashkou">@alepashkou</a></li>
+	<ul class="text_contact">
+		<li> Email: ale.pashkou<wbr>@gmail.com</li>
+		<li> Mobile: +375-29-386-56-27</li>
+		<li> Discord: Alexander Pashkou (@alepashkou)</li>
+		<li> Github: <a href="https://github.com/alepashkou">@alepashkou</a></li>
 	</ul>
-	
-</div> 
+</section>
+<section class="right">
+	<h1 class="name"> Alexander Pashkou </h1>
+	<nav>
+		<ul class="menu-main">
+			<li><a href="#experience">Experience</a></li>
+			<li><a href="#education">Education</a></li>
+			<li><a href="#skills">Skills</a></li>
+			<li><a href="#projects">Projects</a></li>
+		  </ul>
+	</nav>	
+	<hr>
+	 <h2 class="exp" id="experience" >Work experience</h2>	 
+		<ul>
+			<li>Gomel State Technical University Pavel Sukhoi <a href="https://www.gstu.by/">(gstu.by)</a><br>
+ 			01.2021 - present (Software engineer)</li>
 
-		 
-	<div id="left">
-	<h1 class="name">Alexander Pashkou</h1>
-	
-	 <hr>
-	 <article>
-	 <h2 class="exp">Work experience</h2>
-	 
+			<li>Yandex LLC <a href="https://yandex.by/">(yandex.ru)</a><br>
+			01.2021 - present (Assessor-tester)</li>
 
-	 <ul><li>Gomel State Technical University Pavel Sukhoi <a href="https://www.gstu.by/">(gstu.by)</a><br>
- 01.2021 - present (Software engineer)</li>
+			<li>Gomel College of Belkoopsoyuz <a href="http://gtec-bks.by/">(gtec-bks.by)</a><br>
+			07.2020 - 11.2020 (Head of Information Technology Sector)</li>
 
-<li>Yandex LLC <a href="https://yandex.by/">(yandex.by)</a><br>
-01.2021 - present (Assessor-tester)</li>
-
-<li>Gomel College of Belkoopsoyuz <a href="http://gtec-bks.by/">(gtec-bks.by)</a><br>
-07.2020 - 11.2020 (Head of Information Technology Sector)</li>
-
-<li>Minsk College of Belkoopsoyuz <a href="http://mtk-bks.by/">(mtk-bks.by)</a><br>
-07.2019 - 07.2020 (Electronic engineer)</li>
-</ul>
-</article>
+			<li>Minsk College of Belkoopsoyuz <a href="http://mtk-bks.by/">(mtk-bks.by)</a><br>
+			07.2019 - 07.2020 (Electronic engineer)</li>
+		</ul>
 
 	<hr>
-	 <h2 class="exp">Education</h2>
-<ul><li>Gomel State Technical University named after Pavel Sukhoi 2017 - 2019 (Software engineer)</li>
-<li>Belarusian Trade-Economic University of Consumer cooperative 2015 - 2019 (Economist)</li>
-<li>RS-School JS/FE Pre-school 05.07.2021 - present</li>
-</ul>
-<hr>
- <h2 class="exp">Technical skills</h2>
- <ul><li>HTML5, CSS3, SQL, Basic JS, Basic PHP</li>
-<li>Linux Mint, Ubuntu, Raspberry Pi OS</li>
-<li>MySQL, MariaDB, MSQLS</li>
-<li>HTTP, HTTPS, OSI, VPN, DNS, DHCP, TCP/IP</li>
-<li>Vitualization, LAMP, Photoshop</li>
-</ul>
-<hr>
-	</div>	
-
-
-
-	<footer>
-	<div id="left_foother">
-	<p class="year">2021</p>
-	</div>
-		<div id="right_foother">
-		<a href="https://rs.school/js/">
-		<img class ="rs" src="https://rs.school/images/rs_school_js.svg" alt="rs" width="150"></a>
-	</div>
-</footer>
+	<article>
+	<h2 class="exp" id="education">Education</h2>
+		<ul>
+			<li>Gomel State Technical University named after Pavel Sukhoi 2017 - 2019 (Software engineer)</li>
+			<li>Belarusian Trade-Economic University of Consumer cooperative 2015 - 2019 (Economist)</li>
+			<li>RS-School JS/FE Pre-school 05.07.2021 - 07.09.2021</li>
+		</ul>
+	</article>
+	<hr>
+ 	<h2 class="exp" id="skills">Technical skills</h2>
+ 		<ul>
+			<li>HTML5, CSS3, SQL, Basic JS, Basic PHP</li>
+			<li>Linux Mint, Ubuntu, Raspberry Pi OS</li>
+			<li>MySQL, MariaDB, MSQLS</li>
+			<li>HTTP, HTTPS, OSI, VPN, DNS, DHCP, TCP/IP</li>
+			<li>Vitualization, LAMP, Photoshop</li>
+		</ul>
+		<hr>
+	<h2 class="exp" id="projects">Projects</h2>
+	<hr>
+		<div class="allProjects">
+			<div class="project">
+				<div class="project__img">
+					<a href="https://rolling-scopes-school.github.io/alepashkou-JSFEPRESCHOOL/Museum/" target="_blank">
+					<img src="img/museum.JPG" alt="project 1">
+				</a>
+				</div>
+				
+				<h3 class="project__desc">
+					Museum
+				</h3>
+				<div class="project_ico">			
+					<img src="./img/html.png" alt="html" class="ico">
+					<img src="./img/css.png" alt="css" class="ico">
+					<img src="./img/js.svg" alt="js" class="ico">
+				</div>
+				
+			</div>
+			<hr>
+			
+			<div class="project">
+				<div class="project__img">
+					<a href="https://rolling-scopes-school.github.io/alepashkou-JSFEPRESCHOOL/custom-video-player/" target="_blank">
+					<img src="img/custom-video-player.JPG" alt="project 2">
+					</a>
+				</div>
+				<h3 class="project__desc">
+					Custom video player
+				</h3>
+				<div class="project_ico">			
+					<img src="./img/html.png" alt="html" class="ico">
+					<img src="./img/css.png" alt="css" class="ico">
+					<img src="./img/js.svg" alt="js" class="ico">
+				</div>
+			</div>
+			<hr>
+			<div class="project">
+				<div class="project__img">
+					<a href="https://rolling-scopes-school.github.io/alepashkou-JSFEPRESCHOOL/vertical-slider/" target="_blank">
+					<img src="img/vertical-slider.JPG" alt="project 3">
+				</a>
+				</div>
+				<h3 class="project__desc">
+					Vertical slider
+				</h3>
+				<div class="project_ico">			
+					<img src="./img/html.png" alt="html" class="ico">
+					<img src="./img/css.png" alt="css" class="ico">
+					<img src="./img/js.svg" alt="js" class="ico">
+				</div>
+			</div>
+			<hr>
+			<div class="project">
+				<div class="project__img">
+					<a href="#" target="_blank">
+					<img src="img/CV.jpg" alt="project 4">
+					</a>
+				</div>
+				<h3 class="project__desc">
+					CV
+				</h3>
+				<div class="project_ico">			
+					<img src="./img/html.png" alt="html" class="ico">
+					<img src="./img/css.png" alt="css" class="ico">
+					<img src="./img/js.svg" alt="js" class="ico">
+				</div>
+				
+			</div>
+		</div>
+		<hr>	
+		<details>
+			<summary>Code example</summary>
+		<pre><code>function multiply(a,b){<br>
+	return a*b<br>
+}</code></pre>
+		</details>
+		<footer>
+			<h4 class ="year">2021</h4>	
+			<a href="https://rs.school/js/">
+				<img class ="rs" src="https://rs.school/images/rs_school_js.svg" alt="rs" width="150"></a>
+		</footer>
+</section>
 </main>
+<script src="./scripts/script.js"></script>
+
 </body>
 </html>
